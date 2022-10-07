@@ -1,0 +1,50 @@
+.header {
+    background-color: #FFFFFF;
+    
+}
+.header-wrap {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;
+    padding: 21px;
+}
+.user-links-navigation-list {
+    display: flex;
+    padding: 21px;
+}
+.user-links {
+    display: flex;
+    
+}
+.navigation-list__item {
+    margin-right: 36px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    
+}
+.navigation-list__item a {
+    text-decoration: none;
+}
+.user-links-navigation-list__item a {
+    margin-right: 36px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    text-decoration: none;
+    
+}
+
+.header__title {
+    margin: 0 auto;
+    padding: 11px;
+}
+.icon-button {
+    border: none;
+    background-color: transparent;
+    margin-right: 27px;
+}
