@@ -1,0 +1,28 @@
+.header-wrap {
+    display: flex;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+  }
+  
+  .navigation-list {
+    display: flex;
+  }
+  .navigation-list__item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  }
+  .navigation-list__item:not(:first-child) {
+    margin-left: 56px;
+  }
+  .navigation {
+    margin-left: auto;
+  }
+  header {
+    background-color: black;
+  }
+  
