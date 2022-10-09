@@ -1,0 +1,29 @@
+.awesome-header-wrap {
+    margin-bottom: 110px;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+
+.separator {
+    width: 170px;
+    margin: 40px auto;
+    border: 1px solid #EC7979;
+}
+.awesome__title { 
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 36px;
+}
+.awesome__suptitle {
+    font-family: Raleway;
+    font-weight: 400;
+    color: #86878B;
+    font-size: 18px;
+    margin: 40px auto; 
+    
+}
