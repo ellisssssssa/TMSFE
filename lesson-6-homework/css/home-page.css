@@ -1,4 +1,4 @@
-.home-page {
+.home-section {
     position: relative;
     height: 740px;
 }
@@ -8,7 +8,7 @@
     position: absolute;
    
 }
-.home-page-wrap {
+.home-section-wrap {
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -17,7 +17,7 @@
     height: 740px;
     padding-left: 50px;
 }
-.home-page__title {
+.home-section__title {
     font-family: Roboto;
     font-weight: 700;
     font-size: 48px;
@@ -25,8 +25,9 @@
     letter-spacing: 0.5px;
     color: #FFFFFF;
     margin-bottom: 11px;
+    
 }
-.home-page-discription {
+.home-section__discription {
     font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
@@ -35,7 +36,9 @@
     color: #FFFFFF;
     margin-bottom: 41px;
 }
-.shop-links a {
+
+.shop-links__item {
+    display: inline-block;
     font-family: Roboto;
     font-weight: 700;
     font-size: 14px;
@@ -44,11 +47,15 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #212A2F;
-    text-decoration: none;
+    
     border: 1px solid white ;
     border-radius: 2px;
     background-color: #FFFFFF;
     padding: 15px 46px;
+}
+.shop-links a {
+    text-decoration: none;
+    
 }
 .home-image img {
     width: 100%;

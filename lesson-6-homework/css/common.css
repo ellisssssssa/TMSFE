@@ -3,3 +3,8 @@
     max-width: 1200px;
     margin: 0 auto;   
 }
+.seasons-shoes-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
