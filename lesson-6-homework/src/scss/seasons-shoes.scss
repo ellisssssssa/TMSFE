@@ -1,0 +1,148 @@
+.seasons-shoes {
+  padding-top: 52px;
+  padding-bottom: 134px;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  text-align: center;
+  margin-bottom: 54px;
+}
+.decription {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  margin-bottom: 47px;
+  text-align: center;
+}
+.button-wrap {
+  display: inline-block;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background: #212a2f;
+  border: 2px solid #212a2f;
+  border-radius: 2px;
+  padding: 15px 46px;
+}
+.buttons-wrap {
+  text-align: center;
+  margin-bottom: 119px;
+}
+.buttons-wrap a {
+  text-decoration: none;
+}
+.button-wrap:not(:last-child) {
+  margin-right: 24px;
+}
+.cards-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.card-image {
+  margin-bottom: 17px;
+  width: 396px;
+}
+
+.card-image img {
+  width: 100%;
+}
+.card__title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  margin-bottom: 10px;
+}
+
+.card__description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+}
+.cards-text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title-card {
+  text-align: left;
+}
+.title-another-card {
+  font-weight: 400;
+  text-align: left;
+}
+.card__description-additional {
+  max-width: 655px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 26px;
+}
+.title-additional {
+  width: 650px;
+  margin: 0 auto 22px;
+}
+.button-additional {
+  width: 384px;
+}
+@media (max-width: 448px) {
+  .button-wrap {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 1444px) {
+  .cards-wrap {
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+@media (max-width: 1444px) {
+  .title, .decription, .card__description-additional {
+    text-align: center;
+  }
+}
+@media (max-width: 1444px) {
+  .card__description {
+    width: 357px;
+  }
+}
+@media (max-width: 660px) {
+  .title {
+    width: 447px;
+  }
+}
+@media (max-width: 460px) {
+  .button-wrap {
+    width: 180px;
+  }
+}
+@media (max-width: 461px) {
+  .card-image img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 464px) {
+  .title {
+    width: 300px;
+  }
+}
