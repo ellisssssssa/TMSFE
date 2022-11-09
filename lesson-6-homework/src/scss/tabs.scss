@@ -31,37 +31,39 @@
   margin-top: 10px;
 }
 .title-line::after {
- content: "";
- border: 1px solid #D3D4D5;
- display: flex;
- flex-direction: row;
- width: 336px;
- margin-top: 10px;
- margin-bottom: 10px;
+  content: "";
+  border: 1px solid #d3d4d5;
+  display: flex;
+  flex-direction: row;
+  width: 336px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.card__description-wrap{
-    display: flex;
-    gap: 12px;
-    width: 100%;
+.card__description-wrap {
+  display: flex;
+  gap: 12px;
+  width: 100%;
 }
 .card__description-wrap img {
-    max-width: 30px;
-    max-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
 }
 .card-block {
-    position: relative;}
+  position: relative;
+}
 .card-image-addition {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  position: absolute;
+  z-index: -1;
 }
 .buttons-addition {
-    padding: 144px 60px;
+  padding: 144px 60px;
 }
 .button-addition {
-    margin-bottom: 24px;
-    width: 276px;
+  margin-bottom: 24px;
+  width: 276px;
+}
+.card-image-addition img {
+  width: 100%;
 }
 @media (max-width: 1443px) {
   .line {

@@ -1,0 +1,97 @@
+.staff-list {
+  padding-top: 114px;
+  padding-bottom: 114px;
+  .staff-list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    .staff-list-element {
+      width: 23%;
+      .staff-list-icon {
+        width: 270px;
+        img {
+          width: 100%;
+        }
+      }
+      .title-description {
+        color: #ff4343;
+        margin-bottom: 18px;
+      }
+      .element-description {
+        width: 270px;
+        margin-bottom: 38px;
+      }
+      .staff-name {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #2d3033;
+        margin-bottom: 5px;
+      }
+      .staff-list-icon {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+.user-actions a {
+  text-decoration: none;
+}
+
+@media (max-width: 1087px) {
+  .staff-list-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-description {
+    margin-bottom: 38px;
+  }
+}
+@media (max-width: 420px) {
+  .element--description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+  }
+  .title-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+   
+  }
+  .staff-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    
+  }
+  .staff-list-icon {
+    width: 280px;
+    img {
+      width: 100%;
+    }
+  }
+  
+}
+
+@media (max-width: 807px) {
+  .user-actions {
+    display: flex;
+    gap: 6px;
+  }
+}
+@media (max-width: 635px) {
+  .element--description {
+    width: 280px;
+  }
+  .title-description {
+    width: 280px;
+  }
+  .staff-name {
+    width: 280px;
+  }
+}

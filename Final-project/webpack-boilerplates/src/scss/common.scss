@@ -1,0 +1,42 @@
+.container {
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+$color: white;
+@media (max-width: 2000px) {
+  .information-list {
+    display: none;
+  }
+}
+@media (max-width: 2000px) {
+  .cards {
+    display: none;
+  }
+}
+@media (max-width: 2000px) {
+  .footer {
+    display: none;
+  }
+}
+@media (max-width: 2000px) {
+  .slader {
+    display: none;
+  }
+}
+@media (max-width: 2000px) {
+  .staff-list {
+    display: none;
+  }
+}
+// @media (max-width: 2000px) {
+//   .home-section {
+//     display: none;
+//   }
+// }
+@media (max-width: 807px) {
+  .footer__title {
+    width: 280px;
+    text-align: center;
+  }
+}
